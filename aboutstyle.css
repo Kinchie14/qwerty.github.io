@@ -208,9 +208,7 @@ main {
 }
 
 a:is(:link, :active, :visited).active {
-  color: white;
-  background-color: var(--highlight-color);
-  padding: 5px;
+  color: var(--highlight-color);
 }
 
 @media(max-width: 1200px) {    
